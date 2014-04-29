@@ -51,7 +51,7 @@ var App = (function(){
     }
 
     function sync() {
-		var url = "http://localhost:8500/snippits/scrap/test1.cfm"	
+		var url = "http://www.laudisi.com/retjson/test1.cfm"	
         $.getJSON(url, function(studios){
             storeStudiosInLocalStorage(studios);
             populateStudiosList(studios);
